@@ -162,6 +162,8 @@ Desarrollado por estudiantes de la Escuela Superior de Comercio Manuel Belgrano 
 
 Docente a cargo: **Lic. Villagra, Fernando Javier**
 
+> 📌 Este repositorio es una copia del portfolio original publicado por Carlos Emanuel Veliz en [emaspvs9-art/eggtrack-portfolio](https://github.com/emaspvs9-art/eggtrack-portfolio). Se mantiene en esta cuenta como parte de mi portfolio personal, ya que participé en el desarrollo del trabajo final junto con el resto del equipo.
+
 ## 🎓 Contexto académico
 
 Proyecto final de la Práctica Profesionalizante de la carrera *Analista Universitario de Sistemas Informáticos*, desarrollado con la empresa **Los Martínez S.R.L.** siguiendo la metodología en cascada (estudio preliminar, planificación, relevamiento, diagnóstico y diseño).
