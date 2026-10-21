@@ -13,7 +13,7 @@ Plataforma web para digitalizar el circuito completo de ventas, reparto y cobran
 [![SQL Server](https://img.shields.io/badge/SQL_Server-EF_Core_8-CC2927?logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/sql-server)
 [![License](https://img.shields.io/badge/uso-académico-lightgrey)]()
 
-[Reportar un problema](#) · [Ver capturas](#-capturas-de-pantalla)
+**[▶ Probar la demo](https://marcosbarberis.github.io/eggtrack-portfolio/)** · [Ver capturas](#-capturas-de-pantalla)
 
 </div>
 
@@ -22,6 +22,7 @@ Plataforma web para digitalizar el circuito completo de ventas, reparto y cobran
 ## 📋 Índice
 
 - [Sobre el proyecto](#-sobre-el-proyecto)
+- [Demo en vivo](#-demo-en-vivo)
 - [Capturas de pantalla](#-capturas-de-pantalla)
 - [Funcionalidades principales](#-funcionalidades-principales)
 - [Roles del sistema](#-roles-del-sistema)
@@ -39,6 +40,19 @@ Plataforma web para digitalizar el circuito completo de ventas, reparto y cobran
 **EggTrack** fue desarrollado como Práctica Profesionalizante para la carrera *Analista Universitario de Sistemas Informáticos* (Escuela Superior de Comercio Manuel Belgrano – UNC), en conjunto con **Los Martínez S.R.L.**, una empresa familiar cordobesa dedicada a la producción y distribución de huevos.
 
 Antes de EggTrack, el registro de ventas, cobros y saldos se realizaba de forma manual, generando errores, pérdida de información y falta de trazabilidad en el día a día del reparto. El sistema centraliza esa operación: desde la creación de pedidos y hojas de ruta, hasta la ejecución del recorrido por parte del repartidor, el cierre de caja y la validación administrativa, con reportes e indicadores para la dirección.
+
+## ▶️ Demo en vivo
+
+**[marcosbarberis.github.io/eggtrack-portfolio](https://marcosbarberis.github.io/eggtrack-portfolio/)**
+
+La demo es el frontend real del sistema corriendo 100 % en el navegador: las llamadas a la API se resuelven con una API simulada que replica las respuestas y reglas de negocio del backend .NET (precios vigentes, descuentos por categoría, límite de crédito, entregas parciales, cierre de caja, reportes) sobre **datos ficticios**. No hay datos reales de la empresa ni conexión a servicios externos.
+
+En la pantalla de ingreso podés entrar directamente como:
+
+- **Gerencia:** dashboard, pedidos, hojas de ruta, clientes, precios, pagos, auditoría y reportes.
+- **Repartidor (`REP-01`):** ruta del día con optimización del orden de paradas, ventas con cobro contado / parcial / a cuenta, incidencias y cierre de jornada.
+
+Los cambios que hagas se guardan sólo en tu navegador y se pueden borrar con **Reiniciar datos**.
 
 ## 📸 Capturas de pantalla
 
