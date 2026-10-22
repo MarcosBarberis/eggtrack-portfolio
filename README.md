@@ -45,12 +45,15 @@ Antes de EggTrack, el registro de ventas, cobros y saldos se realizaba de forma 
 
 **[marcosbarberis.github.io/eggtrack-portfolio](https://marcosbarberis.github.io/eggtrack-portfolio/)**
 
-La demo es el frontend real del sistema corriendo 100 % en el navegador: las llamadas a la API se resuelven con una API simulada que replica las respuestas y reglas de negocio del backend .NET (precios vigentes, descuentos por categoría, límite de crédito, entregas parciales, cierre de caja, reportes) sobre **datos ficticios**. No hay datos reales de la empresa ni conexión a servicios externos.
+La demo es el frontend real de la versión final del sistema corriendo 100 % en el navegador: las llamadas a la API se resuelven con una API simulada que replica las respuestas y reglas de negocio del backend .NET (precios vigentes, descuentos por categoría, límite de crédito, límite diario de efectivo por repartidor, entregas parciales, ventas en la calle, cierre de jornada en dos etapas, auditoría y reportes) sobre **datos ficticios**. No hay datos reales de la empresa ni conexión a servicios externos.
 
-En la pantalla de ingreso podés entrar directamente como:
+En la pantalla de ingreso podés entrar con un clic con cualquiera de los tres roles (contraseña `demo1234`):
 
-- **Gerencia:** dashboard, pedidos, hojas de ruta, clientes, precios, pagos, auditoría y reportes.
-- **Repartidor (`REP-01`):** ruta del día con optimización del orden de paradas, ventas con cobro contado / parcial / a cuenta, incidencias y cierre de jornada.
+| Rol | Usuario | Qué podés probar |
+|---|---|---|
+| **Gerencia** | `gerencia@eggtrack.demo` | Dashboard, reportes (ventas, zonas, clientes, productos, morosidad, optimización y repartidores), incidencias y auditoría. |
+| **Administración** | `admin@eggtrack.demo` | Pedidos, hojas de ruta con optimización automática, validación de cierres de jornada, clientes y cuenta corriente, precios, pagos, repartidores y usuarios. |
+| **Repartidor** | `juan.perez@eggtrack.demo` | Ruta del día en orden optimizado, ventas con cobro contado / parcial / a cuenta, venta en la calle, incidencias y cierre del recorrido. |
 
 Los cambios que hagas se guardan sólo en tu navegador y se pueden borrar con **Reiniciar datos**.
 
